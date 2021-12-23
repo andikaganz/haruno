@@ -173,8 +173,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
           "title": `${ucapan()}, ${name}`.trim(),
-          "description": "Berikut ini adalah daftar menu Haruno Bot.",
-          "footerText": "Silahkan tekan tombol \"Click Here\" untuk melihat sub-menu Haruno Bot.\n\nJika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.",
+          "description": "Berikut ini adalah daftar menu Lala Bot.",
+          "footerText": "Silahkan tekan tombol \"Click Here\" untuk melihat list menu Andika Bot.\n\nJika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.",
           "buttonText": "Click Here",
           "listType": "SINGLE_SELECT",
           "sections": [
